@@ -1,0 +1,16 @@
+{
+  "name": "toyauro-inner-console-slides",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun ./node_modules/@slidev/cli/bin/slidev.mjs --host 0.0.0.0",
+    "build": "bun ./node_modules/@slidev/cli/bin/slidev.mjs build --base /slides/",
+    "preview": "bun ./node_modules/@slidev/cli/bin/slidev.mjs build --base /slides/ --preview"
+  },
+  "dependencies": {
+    "@slidev/cli": "latest",
+    "@slidev/theme-default": "latest",
+    "vue": "latest"
+  },
+  "devDependencies": {}
+}
